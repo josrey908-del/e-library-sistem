@@ -29,7 +29,19 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
+
+# database
+prisma/dev.db
+prisma/dev.db-journal
+
+# generated / temp files
+*.pdf
+*.epub
+data/cover-assign-report.json
+data/cover-cache.json
+public/avatars/
 
 # vercel
 .vercel
