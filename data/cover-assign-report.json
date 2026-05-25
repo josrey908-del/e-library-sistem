@@ -1,0 +1,1002 @@
+[
+  {
+    "sourceId": "gut-46-en",
+    "title": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-46-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1080-en",
+    "title": "A Modest Proposal",
+    "author": "Jonathan Swift",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-1080-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-2641-en",
+    "title": "A Room with a View",
+    "author": "Forster, E. M. (Edward Morgan)",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-2641-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-98-en",
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-98-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-76-en",
+    "title": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-76-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-76-en",
+    "title": "Adventures of Huckleberry Finn",
+    "author": "Twain, Mark",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-76-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-11-en",
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-11-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-11-en",
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Carroll, Lewis",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-11-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-11-es",
+    "title": "Alicia en el País de las Maravillas",
+    "author": "Lewis Carroll",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-11-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-24925-es",
+    "title": "Amar es vencer",
+    "author": "Caro, Pauline",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-24925-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-24988-es",
+    "title": "Amaury",
+    "author": "Dumas, Alexandre",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-24988-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-26545-es",
+    "title": "Antonio Azorín: pequeño libro en que se habla de la vida de este peregrino señor",
+    "author": "Azorín",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-26545-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-40203-en",
+    "title": "Arsène Lupin versus Herlock Sholmes",
+    "author": "Maurice Leblanc",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-40203-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-16328-es",
+    "title": "Beowulf",
+    "author": "Autor Anónimo",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-16328-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-16328-en",
+    "title": "Beowulf",
+    "author": "Autor Anónimo",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-16328-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-45130-en",
+    "title": "Charles Bradlaugh: a Record of His Life and Work, Volume 1 (of 2): With an Account of his Parliamentary Struggle, Politics and Teachings. Seventh Edition",
+    "author": "Robertson, J. M. (John Mackinnon), Bonner, Hypatia Bradlaugh",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-45130-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-2554-en",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoyevsky",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-2554-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-2554-en",
+    "title": "Crime and Punishment",
+    "author": "Dostoyevsky, Fyodor",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-2554-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-61851-es",
+    "title": "Crimen y Castigo",
+    "author": "Fyodor Dostoyevsky",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-61851-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-55514-es",
+    "title": "Cuentos de amor",
+    "author": "Pardo Bazán, Emilia, condesa de",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-55514-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-768-es",
+    "title": "Cumbres Borrascosas",
+    "author": "Emily Brontë",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-768-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-2000-es",
+    "title": "Don Quijote",
+    "author": "Cervantes Saavedra, Miguel de",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-2000-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-2000-es",
+    "title": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-2000-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-996-en",
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-996-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-15725-es",
+    "title": "Doña Perfecta",
+    "author": "Benito Pérez Galdós",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-15725-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-15725-en",
+    "title": "Doña Perfecta",
+    "author": "Benito Pérez Galdós",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-15725-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-345-en",
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-345-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-345-es",
+    "title": "Drácula",
+    "author": "Bram Stoker",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-345-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-61851-es",
+    "title": "El crimen y el castigo",
+    "author": "Dostoyevsky, Fyodor",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-61851-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-25777-es",
+    "title": "El idilio de un enfermo",
+    "author": "Palacio Valdés, Armando",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-25777-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-320-es",
+    "title": "El lazarillo de Tormes",
+    "author": "Autor Anónimo",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-320-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-26284-es",
+    "title": "El Mar",
+    "author": "Michelet, Jules",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-26284-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-28592-es",
+    "title": "El pecado y la noche",
+    "author": "Hoyos y Vinent, Antonio de",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-28592-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1232-es",
+    "title": "El Príncipe",
+    "author": "Niccolò Machiavelli",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-1232-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-174-es",
+    "title": "El Retrato de Dorian Gray",
+    "author": "Oscar Wilde",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-174-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-84-es",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "language": "es",
+    "source": "openlibrary",
+    "matchScore": 0.65,
+    "coverUrl": "/covers/gut-84-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-84-en",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-84-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-84-en",
+    "title": "Frankenstein; or, the modern prometheus",
+    "author": "Shelley, Mary Wollstonecraft",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-84-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1400-es",
+    "title": "Grandes Esperanzas",
+    "author": "Charles Dickens",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-1400-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1400-en",
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-1400-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-2600-es",
+    "title": "Guerra y Paz",
+    "author": "Leo Tolstoy",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-2600-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-61887-es",
+    "title": "Historia de Dos Ciudades",
+    "author": "Charles Dickens",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-61887-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-25988-es",
+    "title": "Historia de la literatura y del arte dramático en España, tomo II",
+    "author": "Schack, Adolf Friedrich von",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-25988-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1260-es",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-1260-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1260-en",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-1260-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-1260-en",
+    "title": "Jane Eyre: An Autobiography",
+    "author": "Brontë, Charlotte",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-1260-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-27738-es",
+    "title": "José",
+    "author": "Palacio Valdés, Armando",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-27738-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-27695-es",
+    "title": "La cuerda del ahorcado: Últimas aventuras de Rocambole: I El Loco de Bedlam",
+    "author": "Ponson du Terrail",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-27695-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-23600-es",
+    "title": "La gaviota",
+    "author": "Caballero, Fernán",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-23600-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-36990-es",
+    "title": "La Letra Escarlata",
+    "author": "Nathaniel Hawthorne",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-36990-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-5200-es",
+    "title": "La Metamorfosis",
+    "author": "Franz Kafka",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-5200-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-22909-es",
+    "title": "La Novela de un Joven Pobre",
+    "author": "Feuillet, Octave",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-22909-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-58221-es",
+    "title": "La Odisea",
+    "author": "Homero",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-58221-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-58221-es",
+    "title": "La Odisea",
+    "author": "Homer",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-58221-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-17073-es",
+    "title": "La Regenta",
+    "author": "Leopoldo Alas \"Clarín\"",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-17073-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-17073-en",
+    "title": "La Regenta",
+    "author": "Leopoldo Alas \"Clarín\"",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-17073-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-40203-es",
+    "title": "Las Aventuras de Arsène Lupin",
+    "author": "Maurice Leblanc",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-40203-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-76-es",
+    "title": "Las Aventuras de Huckleberry Finn",
+    "author": "Mark Twain",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-76-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1661-es",
+    "title": "Las Aventuras de Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-1661-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-37106-en",
+    "title": "Little Women; Or, Meg, Jo, Beth, and Amy",
+    "author": "Alcott, Louisa May",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-37106-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-25640-es",
+    "title": "Los argonautas",
+    "author": "Blasco Ibáñez, Vicente",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-25640-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-78068-es",
+    "title": "Los miserables - Tomo 2 (de 2)",
+    "author": "Hugo, Victor",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-78068-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-23236-es",
+    "title": "Mare nostrum",
+    "author": "Blasco Ibáñez, Vicente",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-23236-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-24917-es",
+    "title": "Mariucha",
+    "author": "Pérez Galdós, Benito",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-24917-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-145-en",
+    "title": "Middlemarch",
+    "author": "Eliot, George",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-145-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-2701-es",
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-2701-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-2701-en",
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-2701-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-2701-en",
+    "title": "Moby Dick; Or, The Whale",
+    "author": "Melville, Herman",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-2701-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-5197-en",
+    "title": "My Life — Volume 1",
+    "author": "Wagner, Richard",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-5197-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1342-es",
+    "title": "Orgullo y Prejuicio",
+    "author": "Jane Austen",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-1342-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-9980-en",
+    "title": "Platero and I",
+    "author": "Juan Ramón Jiménez",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-9980-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-9980-es",
+    "title": "Platero y yo",
+    "author": "Juan Ramón Jiménez",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-9980-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1342-en",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-1342-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-1342-en",
+    "title": "Pride and Prejudice",
+    "author": "Austen, Jane",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-1342-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-23035-es",
+    "title": "Quilito",
+    "author": "Ocantos, Carlos María",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-23035-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-58031-en",
+    "title": "Report of the President's Commission on the Assassination of President John F. Kennedy",
+    "author": "United States. Warren Commission",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-58031-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-1513-en",
+    "title": "Romeo and Juliet",
+    "author": "Shakespeare, William",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-1513-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-26983-es",
+    "title": "Sangre y arena",
+    "author": "Blasco Ibáñez, Vicente",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-26983-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1661-en",
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-1661-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-67979-en",
+    "title": "The Blue Castle: a novel",
+    "author": "Montgomery, L. M. (Lucy Maud)",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-67979-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-45304-en",
+    "title": "The City of God, Volume I",
+    "author": "Augustine, of Hippo, Saint",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-45304-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-100-en",
+    "title": "The Complete Works of William Shakespeare",
+    "author": "Shakespeare, William",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-100-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-1184-en",
+    "title": "The Count of Monte Cristo",
+    "author": "Dumas, Alexandre, Maquet, Auguste",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-1184-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-64317-en",
+    "title": "The Great Gatsby",
+    "author": "Fitzgerald, F. Scott (Francis Scott)",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-64317-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-844-en",
+    "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+    "author": "Wilde, Oscar",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-844-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-8492-en",
+    "title": "The King in Yellow",
+    "author": "Chambers, Robert W. (Robert William)",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-8492-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-320-en",
+    "title": "The Life of Lazarillo de Tormes",
+    "author": "Autor Anónimo",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-320-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-5200-en",
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-5200-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1727-en",
+    "title": "The Odyssey",
+    "author": "Homero",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-1727-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-52106-en",
+    "title": "The origin and development of the moral ideas",
+    "author": "Westermarck, Edward",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-52106-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-174-en",
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-174-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1232-en",
+    "title": "The Prince",
+    "author": "Niccolò Machiavelli",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-1232-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-25344-en",
+    "title": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-25344-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-39647-es",
+    "title": "The Spanish American Reader",
+    "author": "Nelson, Ernesto",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-39647-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-43-en",
+    "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+    "author": "Stevenson, Robert Louis",
+    "language": "en",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-43-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gutendex-26655-es",
+    "title": "Tristán o el pesimismo",
+    "author": "Palacio Valdés, Armando",
+    "language": "es",
+    "source": "gutendex",
+    "matchScore": 1,
+    "coverUrl": "/covers/gutendex-26655-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-10825-es",
+    "title": "Un Cuento de Navidad",
+    "author": "Charles Dickens",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-10825-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-1080-es",
+    "title": "Una Modesta Proposición",
+    "author": "Jonathan Swift",
+    "language": "es",
+    "source": "gutenberg",
+    "matchScore": 0.35,
+    "coverUrl": "/covers/gut-1080-es.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-2600-en",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-2600-en.jpg",
+    "status": "ok"
+  },
+  {
+    "sourceId": "gut-768-en",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "language": "en",
+    "source": "gutenberg",
+    "matchScore": 0.5,
+    "coverUrl": "/covers/gut-768-en.jpg",
+    "status": "ok"
+  }
+]

@@ -1,0 +1,228 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  passwordHash  String?
+  image         String?
+  provider      String?   // "credentials", "google", "github"
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  reviews       Review[]
+  reviewLikes   ReviewLike[]
+  readingStates ReadingState[]
+  annotations   Annotation[]
+  vocabulary    UserVocabulary[]
+  streaks       ReadingStreak[]
+  clubsOwned    ReadingClub[]     @relation("ClubOwner")
+  clubsJoined   ReadingClubMember[]
+  clubComments  ClubComment[]
+  stats         UserStats?
+}
+
+model Book {
+  id              String    @id @default(cuid())
+  sourceId        String    @unique // Gutendex ID, Open Library OLID, etc.
+  workKey         String?   // Agrupa ediciones EN/ES del mismo libro (ej. "frankenstein")
+  title           String
+  author          String
+  coverUrl        String?
+  description     String?   
+  genres          String    // Almacenado como JSON stringificado ["Fantasía", "Aventura"]
+  language        String    @default("es")
+  downloadUrl     String?   // URL del archivo EPUB
+  pdfUrl          String?   // PDF directo si existe (Gutenberg, etc.)
+  pdfStatus       String    @default("epub_only") // "ready" | "epub_only" | "coming_soon"
+  isbn            String?   // ISBN opcional para portadas/metadata
+  source          String    // "gutenberg", "openlibrary", "standardebooks"
+  publishedYear   Int?
+  readingTimeMin  Int?      // Tiempo estimado de lectura en minutos
+  ratingAvg       Float     @default(0)
+  ratingCount     Int       @default(0)
+  trendingScore   Float     @default(0) // Para ordenar "Tendencias"
+  // --- Nuevos campos ---
+  award           String?   // Nombre del premio ganado (ej. "Premio Nobel", "Man Booker Prize")
+  availableUntil  DateTime? // Fecha de expiración automática (null = siempre disponible)
+  topRank         Int?      // Posición en el Top 10 (1-10, null = no está en el top)
+  isFeatured      Boolean   @default(false) // Aparece en el Hero rotatorio
+  isEpisodic      Boolean   @default(false) // Indica si el libro se divide en temporadas/capítulos
+  moods           String?   // JSON stringificado ["Melancólico", "Motivador"]
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  reviews        Review[]
+  readingStates  ReadingState[]
+  chapters       Chapter[]
+  annotations    Annotation[]
+  characters     Character[]
+  clubs          ReadingClub[]
+}
+
+model Chapter {
+  id          String   @id @default(cuid())
+  bookId      String
+  season      Int      @default(1)
+  chapterNum  Int
+  title       String
+  downloadUrl String?  
+  createdAt   DateTime @default(now())
+
+  book        Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  @@unique([bookId, season, chapterNum])
+}
+
+model ReadingState {
+  id        String    @id @default(cuid())
+  userId    String
+  bookId    String
+  status    String    // "reading", "finished", "want_to_read", "favorite"
+  progress  Float     @default(0) // Porcentaje de lectura: 0.00 - 100.00
+  position  String?   // Almacenado como JSON string (CFI o similar)
+  updatedAt DateTime  @updatedAt
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book      Book      @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, bookId])
+  @@index([userId])
+  @@index([bookId])
+}
+
+model Annotation {
+  id        String   @id @default(cuid())
+  userId    String
+  bookId    String
+  cfiRange  String   // Rango de la selección en EpubJS
+  text      String   // Texto seleccionado
+  color     String   @default("yellow")
+  note      String?
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book      Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@index([userId, bookId])
+}
+
+model UserVocabulary {
+  id          String   @id @default(cuid())
+  userId      String
+  word        String
+  definition  String?
+  translation String?
+  isFlashcard Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, word])
+}
+
+model Character {
+  id          String   @id @default(cuid())
+  bookId      String
+  name        String
+  description String
+  role        String?  // "Protagonista", "Antagonista", etc.
+  imageUrl    String?
+  isSpoiler   Boolean  @default(false)
+
+  book        Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+}
+
+model ReadingStreak {
+  id            String   @id @default(cuid())
+  userId        String   @unique
+  currentStreak Int      @default(0)
+  lastReadAt    DateTime @default(now())
+  longestStreak Int      @default(0)
+
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model ReadingClub {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  bookId      String
+  ownerId     String
+  createdAt   DateTime @default(now())
+
+  book        Book     @relation(fields: [bookId], references: [id])
+  owner       User     @relation("ClubOwner", fields: [ownerId], references: [id])
+  members     ReadingClubMember[]
+  comments    ClubComment[]
+}
+
+model ReadingClubMember {
+  id       String   @id @default(cuid())
+  clubId   String
+  userId   String
+  joinedAt DateTime @default(now())
+
+  club     ReadingClub @relation(fields: [clubId], references: [id], onDelete: Cascade)
+  user     User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([clubId, userId])
+}
+
+model ClubComment {
+  id          String   @id @default(cuid())
+  clubId      String
+  userId      String
+  cfiPosition String   // Ubicación exacta en el libro
+  content     String
+  createdAt   DateTime @default(now())
+
+  club        ReadingClub @relation(fields: [clubId], references: [id], onDelete: Cascade)
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserStats {
+  id               String @id @default(cuid())
+  userId           String @unique
+  totalMinutesRead Int    @default(0)
+  totalPagesRead   Int    @default(0)
+  avgReadingSpeed  Float  @default(0) // Palabras por minuto o páginas por hora
+
+  user             User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Review {
+  id        String    @id @default(cuid())
+  userId    String
+  bookId    String
+  rating    Int       // 1 a 5
+  content   String?   // Reseña de texto (opcional si solo califica)
+  likesCount Int      @default(0)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book      Book      @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  likes     ReviewLike[]
+
+  @@unique([userId, bookId]) // Una reseña por usuario por libro
+  @@index([bookId])
+}
+
+model ReviewLike {
+  id        String   @id @default(cuid())
+  userId    String
+  reviewId  String
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  review    Review   @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, reviewId])
+}

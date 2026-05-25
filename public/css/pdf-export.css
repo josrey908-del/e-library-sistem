@@ -1,0 +1,91 @@
+/* PDF Export Styles */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap');
+
+.pdf-container {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 800px;
+    font-family: 'Crimson Pro', 'Georgia', serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.pdf-title-page {
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 50px;
+}
+
+.pdf-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.pdf-subtitle {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pdf-chapter {
+    page-break-before: always;
+    padding: 60px 80px;
+}
+
+.pdf-chapter h1, .pdf-chapter h2, .pdf-chapter h3 {
+    font-family: 'Playfair Display', serif;
+    color: #1a1a1a;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pdf-chapter p {
+    margin-bottom: 1.2em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.pdf-chapter p:first-of-type {
+    text-indent: 0;
+}
+
+.pdf-chapter p:first-of-type::first-letter {
+    font-size: 3em;
+    float: left;
+    line-height: 1;
+    margin-right: 0.1em;
+    font-family: 'Playfair Display', serif;
+}
+
+.pdf-chapter img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.pdf-footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 10px;
+    color: #999;
+    font-family: sans-serif;
+}

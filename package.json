@@ -1,0 +1,55 @@
+{
+  "name": "e-library-stream",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:fix-books": "tsx scripts/update-gutenberg-metadata.ts",
+    "covers:fix": "tsx scripts/fix-covers.ts",
+    "covers:assign": "tsx scripts/assign-covers-per-book.ts",
+    "covers:reassign": "tsx scripts/assign-covers-per-book.ts -- --force",
+    "covers:reassign:all": "tsx scripts/assign-covers-per-book.ts -- --force --from 0 --to 100",
+    "db:import": "tsx scripts/import-gutenberg-catalog.ts",
+    "db:setup": "prisma db push && tsx prisma/seed.ts && tsx scripts/import-gutenberg-catalog.ts",
+    "db:reseed": "prisma db push && tsx prisma/seed.ts",
+    "db:reset": "prisma db push --force-reset && tsx prisma/seed.ts",
+    "postinstall": "prisma generate"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "epubjs": "^0.3.93",
+    "framer-motion": "^12.38.0",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.14.0",
+    "jspdf": "^4.2.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^1.14.0",
+    "next": "14.2.15",
+    "next-auth": "^5.0.0-beta.31",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.22.0",
+    "@types/bcryptjs": "^3.0.0",
+    "@types/jspdf": "^2.0.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

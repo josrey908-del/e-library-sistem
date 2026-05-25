@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* ========== MOBILE / TOUCH ========== */
+.safe-top {
+  padding-top: env(safe-area-inset-top, 0);
+}
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  @apply text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-white/5 min-h-[44px] inline-flex items-center;
+}
+
+.mobile-nav-item {
+  @apply block text-gray-200 hover:text-primary hover:bg-primary/10 px-4 py-3 rounded-xl text-base font-medium min-h-[44px] flex items-center;
+}
+
+/* Hover solo en dispositivos con puntero fino */
+@media (hover: hover) and (pointer: fine) {
+  .book-card-hover:hover {
+    transform: scale(1.08) translateY(-4px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.8), 0 0 20px rgba(212,168,83,0.15);
+  }
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .book-grid {
+    grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* ========== SCROLLBAR ========== */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #D4A853; }
+
+/* ========== SHIMMER LOADING ========== */
+.shimmer {
+  background: linear-gradient(90deg, #141414 0%, #1f1f1f 50%, #141414 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s linear infinite;
+}
+
+/* ========== GOLD GRADIENT TEXT ========== */
+.gold-text {
+  background: linear-gradient(135deg, #D4A853, #F5C842, #A07828);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ========== SECTION TITLE GRADIENT ========== */
+.section-title {
+  background: linear-gradient(90deg, #ffffff 0%, #D4A853 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
+
+/* ========== EXPIRING BADGE PULSE ========== */
+.expiring-badge {
+  animation: pulseRed 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseRed {
+  0%, 100% { box-shadow: 0 0 8px 2px rgba(231,76,60,0.4); }
+  50% { box-shadow: 0 0 20px 6px rgba(231,76,60,0.9); }
+}
+
+/* ========== AWARD BADGE GLOW ========== */
+.award-glow {
+  box-shadow: 0 0 12px rgba(155, 89, 182, 0.6);
+}
+
+/* ========== CARD HOVER ========== */
+.book-card-hover {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+}
+.book-card-hover:hover {
+  transform: scale(1.08) translateY(-4px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.8), 0 0 20px rgba(212,168,83,0.15);
+}
+
+/* ========== TOP 10 NUMBER ========== */
+.top10-number {
+  font-size: clamp(80px, 12vw, 150px);
+  font-weight: 900;
+  line-height: 0.8;
+  color: #0A0A0A; /* Dark background to match */
+  -webkit-text-stroke: 4px #4A4A4A;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
+  font-family: var(--font-inter), sans-serif;
+  letter-spacing: -6px;
+  user-select: none;
+}
+.top10-number:hover {
+  -webkit-text-stroke: 4px #D4A853;
+  transition: all 0.3s ease;
+}
+
+/* ========== HERO VIDEO OVERLAY ========== */
+.hero-overlay {
+  background: linear-gradient(
+    to right,
+    rgba(10,10,10,0.97) 0%,
+    rgba(10,10,10,0.85) 40%,
+    rgba(10,10,10,0.2) 70%,
+    transparent 100%
+  );
+}
+.hero-overlay-bottom {
+  background: linear-gradient(to top, rgba(10,10,10,1) 0%, transparent 60%);
+}
+
+/* ========== NETFLIX-STYLE FOCUS RING ========== */
+button:focus-visible, a:focus-visible {
+  outline: 2px solid #D4A853;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ========== SEARCH INPUT ========== */
+.search-input {
+  background: rgba(20,20,20,0.9);
+  border: 1px solid rgba(212,168,83,0.2);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.search-input:focus {
+  border-color: #D4A853;
+  box-shadow: 0 0 0 3px rgba(212,168,83,0.1);
+  outline: none;
+}
+
+/* ========== ADMIN TABLE ========== */
+.admin-table tr:hover td {
+  background: rgba(212,168,83,0.05);
+}
